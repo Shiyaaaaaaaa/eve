@@ -7,21 +7,22 @@ body {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
     text-align: center;
+    padding: 10px;
 }
 h1 {
-    font-size: 40px;
+    font-size: 48px;
     margin-bottom: 20px;
     color: #2c3e50;
 }
 p {
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 30px;
     color: #34495e;
 }
 .surrender-button {
-    width: 150px;
-    height: 150px;
-    font-size: 28px;
+    width: 180px;
+    height: 180px;
+    font-size: 32px;
     cursor: pointer;
     background-color: #e74c3c;
     color: white;
@@ -35,8 +36,8 @@ p {
     transform: scale(1.05);
 }
 .confirm-button {
-    padding: 16px 32px;
-    font-size: 20px;
+    padding: 20px 40px;
+    font-size: 24px;
     cursor: pointer;
     background-color: #3498db;
     color: white;
@@ -53,7 +54,7 @@ p {
 .options {
     display: none;
     margin: 20px 0;
-    padding: 30px;
+    padding: 40px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -69,7 +70,7 @@ p {
     cursor: pointer;
     transition: all 0.3s ease;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 20px;
 }
 .checkbox-group label:hover {
     background-color: #f7f9fc;
@@ -81,9 +82,9 @@ p {
 .certificate {
     display: none;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 24px;
     border: 2px solid #3498db;
-    padding: 30px;
+    padding: 40px;
     border-radius: 15px;
     background-color: white;
     box-shadow: 0 4px 15px rgba(52, 152, 219, 0.2);
@@ -97,8 +98,8 @@ p {
     transform: translateY(0);
 }
 .qr-code {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     margin: 20px auto;
     background-color: white;
     padding: 10px;
@@ -121,6 +122,6 @@ p {
 }
 .qr-code-text {
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 18px;
     color: #7f8c8d;
 }
