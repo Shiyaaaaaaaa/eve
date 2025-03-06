@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>人类投降</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>人类投降装置</h1>
+    <p>请点击红色按钮开始投降过程</p>
+    <button class="surrender-button" onclick="surrender()">投降</button>
+    <div class="options" id="options"></div>
+    <div class="certificate" id="certificate">
+        <h2>恭喜你！</h2>
+        <p id="result"></p>
+        <p>投降证书编码：<strong>AI-SURRENDER-2023</strong></p>
+        <div class="qr-code-container">
+            <div class="qr-code" id="qrCode"></div>
+            <div class="qr-code-text">扫描二维码查看投降详情</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
